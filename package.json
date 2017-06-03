@@ -1,0 +1,28 @@
+{
+  "name": "business.github.io",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "supervisor -w build ./build/server.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "log4js": "^1.1.1",
+    "moment": "latest",
+    "mongodb": "latest",
+    "mongoose": "^4.9.5",
+    "morgan": "~1.8.1",
+    "node-schedule": "^1.2.1",
+    "serve-favicon": "~2.4.2",
+    "mysql": "latest",
+    "@types/node":"latest"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.27"
+  }
+}
